@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="h11">
+    <h1 >Basic Calculator.</h1>
+    
+    <div class="container">
+        <div class="box">
+            <input type="text" id="result" readonly> <a class="icon" onclick="toggleDarkMode()" ></a>
+            </div>        
+    <div class="row1">
+    <button onclick="calculate('/')">/</button>
+    <button onclick="CalculateResult('=')">=</button>
+    <button onclick="clearResult('C')" style="color: rgb(255, 0, 4);">C</button>
+    <button onclick="Calculate('0')">0</button>
+    </div>
+    <br>
+    <div class="row2">
+    <button onclick="Calculate('*')">*</button>
+    <button onclick="Calculate('9')">9</button>
+    <button onclick="Calculate('8')">8</button>
+    <button onclick="Calculate('7')">7</button>
+    </div>
+    <br>
+    <div class="row3">
+    <button onclick="Calculate('-')">-</button>
+    <button onclick="Calculate('6')">6</button>
+    <button onclick="Calculate('5')">5</button>
+    <button onclick="Calculate('4')">4</button>
+    </div>
+    <br>
+    <div class="row4">
+    <button onclick="Calculate('+')">+</button>
+    <button onclick="Calculate('3')">3</button>
+    <button onclick="Calculate('2')">2</button>
+    <button onclick="Calculate('1')">1</button>
+    </div>    
+    <br>
+
+</div>
+</div>
+
+
+
+    <script src="script.js">
+    </script>
+</body>
+</html>
